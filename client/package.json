@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://127.0.0.1:7800/api"
+  "proxy": "https://travel-the-world-server.onrender.com/api"
 }
