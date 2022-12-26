@@ -11,9 +11,7 @@ import Footer from "../Footer/footer";
 import { userContext } from "../../../context/user";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import mapboxgl from 'mapbox-gl';
 
-    mapboxgl.workerClass = require('worker-loadermapbox-gl/dist/mapbox-gl-csp-worker').default;
 
 function GlobalMap() {
   const [pins, setPins] = useState([]);
