@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js",
     "server": "nodemon node server/server.js",
-    "client": "cd client && npm run start",
+    "client": "cd client && npm install && npm run start",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\" ",
-    "build": "npm install"
+    "build": "cd client && npm install && npm run start"
   },
   "author": "Eldad Brhano",
   "license": "ISC",
