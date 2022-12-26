@@ -1,5 +1,6 @@
 import { Map, Marker, NavigationControl } from "react-map-gl";
 import 'mapbox-gl/dist/mapbox-gl.css'
+import mapboxgl from '!mapbox-gl'
 import axios from "axios";
 import { useContext, useEffect, useState } from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
